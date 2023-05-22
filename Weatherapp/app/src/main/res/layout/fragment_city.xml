@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".presentation.city.CityFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:text="Напишіть місто"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/cityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_edit_text"
+        android:hint="Місто"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/getWeatherButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Знайти прогноз"
+        android:textSize="20sp" />
+
+</LinearLayout>
